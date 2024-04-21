@@ -14,3 +14,6 @@ Then, we connected our trained CNN with the ChatGPT API to seamlessly curate per
 
 ## React + TypeScript
 Finally, it was time for UI design! We used the React Framework with TypeScript, along with traditional CSS to make a very clean and slick interface allowing the user to communicate with our EmotionAI. The UI design was Bitcamp's 10th anniversary, adding a sentimental touch (we love Bitcamp!!).
+
+## Acknowledgements
+This was a project made by Minsi Hu, Davy Wang, Isabelle Park, Zewen Ye at Bitcamp 2024 held at the Unversity of Maryland :) Special thanks to Andy Qu for guiding us on the machine learning aspects of the project, and all of the Bitcamp Organizers for making the event possible - it was a blast! >:D
