@@ -13,7 +13,7 @@ We first focused on training a machine learning model to accurately detect senti
 Then, we connected our trained CNN with the ChatGPT API to seamlessly curate personalized responses. We achieved this by obtaining a secure API key to access the GPT API remotely and passing it into an Axios post method (along with other meta-data). We further combined this with React UseStates to retrieve the most recent input data to be processed by the API, and added additional engineered prompts to better fit the user's emotional state.
 
 ## React + TypeScript
-Finally, it was time for UI design! We used the React Framework with TypeScript, along with traditional CSS to make a very clean and slick interface allowing the user to communicate with our EmotionAI. The UI design was Bitcamp's 10th anniversary, adding a sentimental touch (we love Bitcamp!!).
+Finally, it was time for UI design! We used the React Framework with TypeScript, along with traditional CSS to make a very clean and slick interface allowing the user to communicate with our EmotionAI. The UI design was Bitcamp's 10th anniversary, adding a sentimental touch.
 
 ## Acknowledgements
 This was a project made by Minsi Hu, Davy Wang, Isabelle Park, Zewen Ye at Bitcamp 2024 held at the Unversity of Maryland :) Special thanks to Andy Qu for guiding us on the machine learning aspects of the project, and all of the Bitcamp Organizers for making the event possible - it was a blast! >:D
