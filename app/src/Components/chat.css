@@ -1,0 +1,62 @@
+.in {
+  position: relative;
+  width: 30rem;
+  height: 2rem;
+  border-radius: 10px 0 0 10px;
+  background-color: #f5f5f5;
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.sub {
+  margin-top: 1rem;
+  height: 2.35rem;
+  border-radius: 0 10px 10px 0;
+  border-width: 1px
+}
+
+.container {
+  --light-color: #fff;
+  height: 37rem;
+  width: 50rem;
+  background: var(--light-color);
+  position: fixed;
+  bottom: 0rem;
+  right: 15rem;
+  border-right: 2px solid burlywood;
+  border-left: 2px solid burlywood;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row; /* Aligns children (textarea and button) vertically */
+  align-items: flex-start; /* Aligns children to the start of the flex container (left-aligned) */ /* Adds space between the textarea and the button */
+}
+
+.chat-body {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px;
+  padding-top: 20px;
+  align-items: flex-end;
+  overflow-y: auto;
+  /* border: 1px solid black */
+}
+
+.chatbot-message,
+.user-message {
+  padding: 8px;
+  background: #ccc;
+  margin: 5px;
+  max-width: 80%; /* Set a maximum width for the message boxes */
+  word-wrap: break-word; /* Ensures text breaks to next line at max-width */
+  border-radius: 10px 3px 10px 10px;
+  box-sizing: border-box; /* Includes padding in the width calculation */
+}
+.chatbot-message {
+  background: #0652c0;
+  color: var(--light-color);
+  align-self: flex-start;
+  border-radius: 10px 10px 3px 10px;
+}

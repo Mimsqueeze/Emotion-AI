@@ -1,0 +1,46 @@
+.chat {
+  position: absolute;
+  bottom: 20rem;
+  left: 27rem;
+}
+
+body {
+  background-color: #46b7da; /* Set your desired color, example uses light gray */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: sans-serif; /* Optional: Sets a default font for the page */
+}
+
+h1 {
+  padding-left: 0.5rem;
+  font-family:'Lucida Sans'
+}
+
+.element1, .element2 {
+  display: inline-block;
+}
+
+.element2 {
+  padding-left: 0.2rem;
+  margin-top: 1rem;
+}
+.element3 {
+  width:14rem;
+  padding-top: 7rem;
+  padding-left: 0.5rem;
+}
+
+.element4 {
+  width:14rem;
+  padding-top: 7rem;
+  padding-left: 51rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  z-index: 1;
+}
